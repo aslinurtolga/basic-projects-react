@@ -5,7 +5,7 @@ import DotLoader from "react-spinners/DotLoader";
 const Loading = () => {
   return (
     <div className="text-center loading">
-      <DotLoader color="#30AADD" />
+      <DotLoader color="#E26A2C" />
     </div>
   );
 }
