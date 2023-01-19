@@ -1,11 +1,13 @@
 import React from 'react'
+import DotLoader from "react-spinners/DotLoader";
+
 
 const Loading = () => {
   return (
-    <div className='loading'>
-      <h1>loading...</h1>
+    <div className="text-center loading">
+      <DotLoader color="#36d7b7" />
     </div>
-  )
+  );
 }
 
 export default Loading
