@@ -20,7 +20,7 @@ function App() {
   };
   useEffect(() => {
     fetchTours();
-  }, 2000);
+  }, 3000);
 
   if (loading) {
     return ( 
